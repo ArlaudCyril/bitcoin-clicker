@@ -444,7 +444,7 @@ $(document).ready(function () {
   $(".bitcoin").click(function () {
 
     // Add 1^-8 Bitcoins (equal to 1 satoshi)
-    bitcoins = bitcoins + 0.00000001
+    bitcoins = bitcoins + 1
 
     // Show the new number on the page
     if(bitcoins > 1000000){
